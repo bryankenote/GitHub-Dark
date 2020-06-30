@@ -28579,3 +28579,12 @@
     border-color: #343434;
   }
 }
+
+@-moz-document domain("git.faithlife.dev") {
+  .btn:not(.btn-primary) {
+       background-image: unset !important;
+  }
+  .btn:not(.btn-primary):hover {
+       border-color: rgba(220, 220, 220, .15);
+  }
+}
